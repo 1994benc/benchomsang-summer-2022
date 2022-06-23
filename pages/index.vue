@@ -31,6 +31,6 @@ h1, h2 {
 }
 
 .form {
-  @apply px-6 py-3 bg-white rounded-full border focus:border-black focus:outline-none;
+  @apply px-6 py-3 bg-white rounded-lg border focus:border-black focus:outline-none;
 }
 </style>
