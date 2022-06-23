@@ -25,4 +25,8 @@ h1, h2 {
 .button {
   @apply px-6 py-3 bg-black text-white rounded-full;
 }
+
+.container {
+  @apply p-16 rounded-xl mx-auto border max-w-5xl;
+}
 </style>
