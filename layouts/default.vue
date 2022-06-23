@@ -18,6 +18,8 @@ const handleUserKeyDown = function (e) {
     this.$router.push("/journey");
   } else if (e.key === "h") {
     this.$router.push("/");
+  } else if (e.key === 'd') {
+    this.$router.push("/contact");
   }
 };
 
