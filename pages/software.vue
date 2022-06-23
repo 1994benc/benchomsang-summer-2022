@@ -7,7 +7,7 @@
         language is TypeScript.
       </div>
       <ComingSoonMessage message="This is where I'll showcase my work" />
-      <button class="button">Back home <KeyboardShortcutBadge label="Press H" /> </button>
+      <BackHomeButton />
     </div>
   </div>
 </template>
