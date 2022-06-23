@@ -27,6 +27,6 @@ h1, h2 {
 }
 
 .container {
-  @apply p-16 rounded-xl mx-auto border max-w-5xl;
+  @apply p-16 rounded-xl mx-auto max-w-6xl;
 }
 </style>
