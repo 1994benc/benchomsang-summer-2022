@@ -1,0 +1,11 @@
+{
+    "hosting": {
+      "rewrites": [{
+        "source": "**",
+        "run": {
+          "serviceId": "benchomsang",
+          "region": "us-central1"
+        }
+      }]
+    }
+  }
