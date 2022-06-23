@@ -29,4 +29,8 @@ h1, h2 {
 .container {
   @apply p-16 rounded-xl mx-auto max-w-6xl;
 }
+
+.form {
+  @apply px-6 py-3 bg-white rounded-full border focus:border-black focus:outline-none;
+}
 </style>
