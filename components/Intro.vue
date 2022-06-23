@@ -21,25 +21,8 @@
 <script>
 import KeyboardShortcutBadge from "./KeyboardShortcutBadge.vue";
 
-const handleUserKeyDown = function(e) {
-  if (e.key === "a") {
-    this.$router.push("/software");
-  } else if (e.key === "b") {
-    this.$router.push("/plants");
-  } else if (e.key === "c") {
-    this.$router.push("/journey");
-  }
-};
 export default {
   name: "Intro",
   components: { KeyboardShortcutBadge },
-  mounted() {
-    console.log("Intro created");
-    window.addEventListener("keydown", handleUserKeyDown.bind(this));
-  },
-  beforeDestroy() {
-    console.log("Intro destroyed");
-    window.removeEventListener("keydown", handleUserKeyDown.bind(this));
-  },
 };
 </script>
