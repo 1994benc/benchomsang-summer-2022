@@ -24,11 +24,11 @@ const handleUserKeyDown = function (e) {
 export default {
   name: "default",
   mounted() {
-    console.log("Intro created");
+    console.log("Default layout created");
     window.addEventListener("keydown", handleUserKeyDown.bind(this));
   },
   beforeDestroy() {
-    console.log("Intro destroyed");
+    console.log("Default layout destroyed");
     window.removeEventListener("keydown", handleUserKeyDown.bind(this));
   },
 };
