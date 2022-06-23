@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="py-6 px-10 mb-10">
-        <div class="left">Ben Chomsang</div>
+        <NuxtLink to="/"><div class="left">Ben Chomsang</div></NuxtLink>
         <div class="right"></div>
     </nav>
     <Nuxt />
