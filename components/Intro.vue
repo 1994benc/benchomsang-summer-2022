@@ -4,19 +4,19 @@
     <div class="my-8 flex gap-3 flex-wrap items-center">
       <NuxtLink to="/software"
         ><button class="button">
-          Software engineering <KeyboardShortcutBadge label="Press A" /></button
+          Software engineering <KeyboardShortcutBadge label="⌘ + A" /></button
       ></NuxtLink>
       <NuxtLink to="/plants"
         ><button class="button">
-          My house plants 🪴 <KeyboardShortcutBadge label="Press B" /></button
+          My house plants 🪴 <KeyboardShortcutBadge label="⌘ + B" /></button
       ></NuxtLink>
       <NuxtLink to="/journey"
         ><button class="button">
-          My journey <KeyboardShortcutBadge label="Press C" /></button
+          My journey <KeyboardShortcutBadge label="⌘ + C" /></button
       ></NuxtLink>
       <NuxtLink to="/contact"
         ><button class="button">
-          Contact me <KeyboardShortcutBadge label="Press D" /></button
+          Contact me <KeyboardShortcutBadge label="⌘ + D" /></button
       ></NuxtLink>
     </div>
   </div>

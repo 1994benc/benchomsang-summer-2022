@@ -10,15 +10,16 @@
 
 <script>
 const handleUserKeyDown = function (e) {
-  if (e.key === "a") {
+  e.preventDefault();
+  if (e.key === "a" && e.metaKey) {
     this.$router.push("/software");
-  } else if (e.key === "b") {
+  } else if (e.key === "b" && e.metaKey) {
     this.$router.push("/plants");
-  } else if (e.key === "c") {
+  } else if (e.key === "c" && e.metaKey) {
     this.$router.push("/journey");
-  } else if (e.key === "h") {
+  } else if (e.key === "h" && e.metaKey) {
     this.$router.push("/");
-  } else if (e.key === 'd') {
+  } else if (e.key === 'd' && e.metaKey) {
     this.$router.push("/contact");
   }
 };

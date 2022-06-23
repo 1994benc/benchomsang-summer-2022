@@ -1,6 +1,6 @@
 <template>
   <button class="button">
-    Back home <KeyboardShortcutBadge label="Press H" />
+    Back home <KeyboardShortcutBadge label="⌘ + H" />
   </button>
 </template>
 
